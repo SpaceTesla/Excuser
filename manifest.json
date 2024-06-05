@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Excuser",
+  "version": "1.0.1",
+  "description": "This extension will give you a random excuse to get out of a situation",
+  "icons": {
+    "128": "images/icon128.png"
+  },
+  "host_permissions": ["https://excuser-three.vercel.app/"],
+  "action": {
+    "default_popup": "popup/popup.html"
+  }
+}

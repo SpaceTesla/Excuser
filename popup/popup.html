@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Excuses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/popup/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Random Excuses</h1>
+    </header>
+
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="get-excuse btn btn-danger">
+        Unbelievable
+      </button>
+      <button type="button" class="get-excuse btn btn-success">Funny</button>
+      <button type="button" class="get-excuse btn btn-warning">College</button>
+      <button type="button" class="get-excuse btn btn-info">Developers</button>
+    </div>
+    <p
+      id="excuse"
+      class="p-3 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-3"
+    >
+      Click any button to generate an excuse
+    </p>
+    <script src="/popup/script.js"></script>
+  </body>
+</html>
